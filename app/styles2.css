@@ -1,0 +1,58 @@
+@media only screen and (max-width: 414px){
+header{
+    background-color: white;
+    border-end-start-radius: rgb(186, 186, 243) 
+    
+}
+
+
+.back{
+    width: 100%;
+    height: 180px;
+}
+
+.icon{
+    float: right;
+    margin-top: -40px;
+}
+
+.round-image {
+    width:80px;
+    height:80px;
+    border-radius:150px;
+}
+.monedero{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+
+.container-top{
+    background: url("galeria/imagen1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    width: 100%;
+    height: 270px;
+
+}
+.container-medium{
+    display: inline-block;
+    width:100%;
+    height: 200px;
+    background: url("galeria/fondo.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+}

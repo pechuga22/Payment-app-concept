@@ -1,0 +1,74 @@
+/*MENU*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5e628d;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+ /*SUPERIOR*/ 
+.superior{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #737bd4;
+    width: 100%;
+    height: 280px;
+}
+
+.botonesSuperior{
+    width: 99%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.btnSuperior{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.contenidoSuperior button{
+width: 130px;
+height: 35px;
+border:1px solid white;
+background-color: #737bd4;
+color: white;
+}
+
+.contenidoSuperior p{
+    font-size: 10px;
+}

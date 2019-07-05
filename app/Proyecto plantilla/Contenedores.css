@@ -1,0 +1,59 @@
+/*CONTENEDOR PRINCIPAL*/
+.contenedorPrincipal{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    width: 90%;
+    height: 55px;
+    padding: 5px;
+    margin: 0px 0px 10px 18px;
+    background-color:white;
+    display: flex;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 1px #AAA;
+}
+
+/*IMAGENES DE LOS CONTENEDORES*/
+.contenedorPrincipal img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%
+}
+
+/*CONTENEDOR DERECHO*/
+.contenedorDerecho{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* IMAGENES DE LOS CONTENEDORES DERECHOS*/
+.contenedorDerecho img{
+    height: 25px;
+    margin: 18px;
+    width: 25px;
+    border-radius: 50%
+    
+}
+/*PRECIO DE LOS CONTENEDORES DERECHOS*/
+.contenedorDerecho p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*CONTENEDOR IZQUIERDO*/
+.contenedorIzquierdo{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 10px;
+    display: block;
+    justify-content: flex-start;
+}
+
+/*NOMBRE DEL CONTENEDOR IZQUIERDO*/
+.contenedorIzquierdo p{
+    font-size: 13px;
+    margin-top: -10px;
+    color: grey;
+}
